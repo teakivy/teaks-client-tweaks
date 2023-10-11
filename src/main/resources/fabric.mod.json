@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "teaksclienttweaks",
+  "version": "${version}",
+  "name": "Teak's Client Tweaks",
+  "description": "Client Tweaks by TeakIvy",
+  "authors": [
+    "TeakIvy"
+  ],
+  "contact": {
+    "repo": "https://github.com/TeakIvy/TeaksClientTweaks"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/teaksclienttweaks/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.teakivy.teaksclienttweaks.client.TeaksClientTweaksClient"
+    ],
+    "main": [
+      "me.teakivy.teaksclienttweaks.TeaksClientTweaks"
+    ],
+    "modmenu": [
+      "me.teakivy.teaksclienttweaks.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "teaksclienttweaks.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": ">=${minecraft_version}"
+  }
+}

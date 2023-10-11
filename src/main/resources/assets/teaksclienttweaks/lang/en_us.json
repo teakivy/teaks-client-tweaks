@@ -1,0 +1,90 @@
+{
+  "category.teaksclienttweaks.keybinds": "Teak's Client Tweaks",
+  "key.teaksclienttweaks.openConfig": "Teak's Client Tweaks Config",
+  "key.teaksclienttweaks.zoom": "Zoom",
+  "key.teaksclienttweaks.gamma": "Toggle Gamma",
+
+  "text.autoconfig.teaksclienttweaks.title": "§6§lTeak's Client Tweaks",
+
+  "text.autoconfig.teaksclienttweaks.option.zoomEnabled.@PrefixText": "§6§lZoom",
+  "text.autoconfig.teaksclienttweaks.option.zoomEnabled": "Enabled",
+  "text.autoconfig.teaksclienttweaks.option.zoomEnabled.@Tooltip": "Allows you to zoom in with the Zoom keybind.",
+
+  "text.autoconfig.teaksclienttweaks.option.zoomSmoothCamera": "Use Smooth Camera",
+  "text.autoconfig.teaksclienttweaks.option.zoomSmoothCamera.@Tooltip": "Uses the Smooth Camera option when zooming.",
+
+  "text.autoconfig.teaksclienttweaks.option.zoomPercent": "Zoom Percent",
+  "text.autoconfig.teaksclienttweaks.option.zoomPercent.@Tooltip": "The percent of zoom when zooming.",
+
+  "text.autoconfig.teaksclienttweaks.option.zoomKey": "Zoom Key",
+  "text.autoconfig.teaksclienttweaks.option.zoomKey.@Tooltip": "The keybind to use for zooming.",
+
+  "text.autoconfig.teaksclienttweaks.option.gammaEnabled.@PrefixText": "§6§lGamma",
+  "text.autoconfig.teaksclienttweaks.option.gammaEnabled": "Enabled",
+  "text.autoconfig.teaksclienttweaks.option.gammaEnabled.@Tooltip": "Allows you to toggle gamme (full-bright) with the Gamma keybind.",
+
+  "text.autoconfig.teaksclienttweaks.option.gammaPercent": "Gamma Percent",
+  "text.autoconfig.teaksclienttweaks.option.gammaPercent.@Tooltip": "The brightness percent when gamma is enabled.",
+
+  "text.autoconfig.teaksclienttweaks.option.chatEnabled.@PrefixText": "§6§lChat Tweaks",
+  "text.autoconfig.teaksclienttweaks.option.chatEnabled": "Enabled",
+  "text.autoconfig.teaksclienttweaks.option.chatEnabled.@Tooltip": "Enables chat tweaks.",
+
+  "text.autoconfig.teaksclienttweaks.option.chatHidden": "Hide Chat",
+  "text.autoconfig.teaksclienttweaks.option.chatHidden.@Tooltip": "Hides the chat.",
+
+  "text.autoconfig.teaksclienttweaks.option.chatHistoryLength": "Chat History Length",
+  "text.autoconfig.teaksclienttweaks.option.chatHistoryLength.@Tooltip": "The number of messages to keep in chat history.",
+
+  "text.autoconfig.teaksclienttweaks.option.shieldHiderEnabled.@PrefixText": "§6§lShield Hider",
+  "text.autoconfig.teaksclienttweaks.option.shieldHiderEnabled": "Enabled",
+  "text.autoconfig.teaksclienttweaks.option.shieldHiderEnabled.@Tooltip": "Hides the Shield when not in use.",
+
+  "text.autoconfig.teaksclienttweaks.option.shieldHiderHideInMainHand": "Hide in Main Hand",
+  "text.autoconfig.teaksclienttweaks.option.shieldHiderHideInMainHand.@Tooltip": "Hides the Shield when in the main hand.",
+
+  "text.autoconfig.teaksclienttweaks.option.shieldHiderHideInOffHand": "Hide in Off Hand",
+  "text.autoconfig.teaksclienttweaks.option.shieldHiderHideInOffHand.@Tooltip": "Hides the Shield when in the off hand.",
+
+  "text.autoconfig.teaksclienttweaks.option.shieldHiderShowWhileBlocking": "Show While Blocking",
+    "text.autoconfig.teaksclienttweaks.option.shieldHiderShowWhileBlocking.@Tooltip": "Shows the Shield while blocking.",
+
+  "text.autoconfig.teaksclienttweaks.option.shieldHiderShowWithWeapon": "Show With Weapon",
+    "text.autoconfig.teaksclienttweaks.option.shieldHiderShowWithWeapon.@Tooltip": "Shows the Shield when holding a weapon.",
+
+  "text.autoconfig.teaksclienttweaks.option.totemHiderEnabled.@PrefixText": "§6§lTotem Hider",
+  "text.autoconfig.teaksclienttweaks.option.totemHiderEnabled": "Enabled",
+  "text.autoconfig.teaksclienttweaks.option.totemHiderEnabled.@Tooltip": "Hides the Totem of Undying.",
+
+  "text.autoconfig.teaksclienttweaks.option.totemHiderHideInMainHand": "Hide in Main Hand",
+  "text.autoconfig.teaksclienttweaks.option.totemHiderHideInMainHand.@Tooltip": "Hides the Totem of Undying when in the main hand.",
+
+  "text.autoconfig.teaksclienttweaks.option.totemHiderHideInOffHand": "Hide in Off Hand",
+  "text.autoconfig.teaksclienttweaks.option.totemHiderHideInOffHand.@Tooltip": "Hides the Totem of Undying when in the off hand.",
+
+  "text.autoconfig.teaksclienttweaks.option.coordsHudEnabled.@PrefixText": "§6§lCoords Hud",
+  "text.autoconfig.teaksclienttweaks.option.coordsHudEnabled": "Enabled",
+  "text.autoconfig.teaksclienttweaks.option.coordsHudEnabled.@Tooltip": "Shows the coordinates HUD.\n\n§6XYZ: §r420 69 -1337§6   N   09:41",
+
+  "text.autoconfig.teaksclienttweaks.option.stopHotbarScrollLoopingEnabled.@PrefixText": "§6§lStop Hotbar Scroll Looping",
+  "text.autoconfig.teaksclienttweaks.option.stopHotbarScrollLoopingEnabled": "Enabled",
+  "text.autoconfig.teaksclienttweaks.option.stopHotbarScrollLoopingEnabled.@Tooltip": "Stops the hotbar from looping when scrolling.",
+
+  "text.autoconfig.teaksclienttweaks.option.stopHotbarScrollLoopingLoopOnRight": "Loop on Right",
+  "text.autoconfig.teaksclienttweaks.option.stopHotbarScrollLoopingLoopOnRight.@Tooltip": "Loops hotbar scrolling when scrolling right ( >9 ).",
+
+  "text.autoconfig.teaksclienttweaks.option.stopHotbarScrollLoopingLoopOnLeft": "Loop on Left",
+  "text.autoconfig.teaksclienttweaks.option.stopHotbarScrollLoopingLoopOnLeft.@Tooltip": "Loops hotbar scrolling when scrolling left ( <1 ).",
+
+  "text.autoconfig.teaksclienttweaks.option.noFogEnabled.@PrefixText": "§6§lNo Fog",
+  "text.autoconfig.teaksclienttweaks.option.noFogEnabled": "Enabled",
+  "text.autoconfig.teaksclienttweaks.option.noFogEnabled.@Tooltip": "Disables sky fog.",
+
+  "text.autoconfig.teaksclienttweaks.option.noDarknessEnabled.@PrefixText": "§6§lNo Darkness",
+  "text.autoconfig.teaksclienttweaks.option.noDarknessEnabled": "Enabled",
+  "text.autoconfig.teaksclienttweaks.option.noDarknessEnabled.@Tooltip": "Disables the Darkness effect.",
+
+  "text.autoconfig.teaksclienttweaks.option.noPumpkinBlurEnabled.@PrefixText": "§6§lNo Pumpkin Blur",
+  "text.autoconfig.teaksclienttweaks.option.noPumpkinBlurEnabled": "Enabled",
+  "text.autoconfig.teaksclienttweaks.option.noPumpkinBlurEnabled.@Tooltip": "Disables the pumpkin blur."
+}
