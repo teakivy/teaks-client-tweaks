@@ -3,10 +3,10 @@ package me.teakivy.teaksclienttweaks.mixin;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import me.teakivy.teaksclienttweaks.config.Config;
+import net.minecraft.block.enums.CameraSubmersionType;
 import net.minecraft.client.gui.hud.InGameHud;
 import net.minecraft.client.render.BackgroundRenderer;
 import net.minecraft.client.render.Camera;
-import net.minecraft.client.render.CameraSubmersionType;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffects;

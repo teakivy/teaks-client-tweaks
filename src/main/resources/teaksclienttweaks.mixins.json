@@ -10,7 +10,7 @@
     "ZoomMixin"
   ],
   "client": [
-    "ChatHistoryMixin",
+    "ChatHudMixin",
     "GammaPlayMixin",
     "NoFogMixin",
     "NoPumpkinBlurMixin",

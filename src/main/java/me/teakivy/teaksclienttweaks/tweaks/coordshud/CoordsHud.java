@@ -7,6 +7,7 @@ import net.minecraft.client.network.ClientPlayerEntity;
 import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
 import net.minecraft.text.Text;
+import net.minecraft.util.math.MathHelper;
 import net.minecraft.world.World;
 import org.lwjgl.glfw.GLFW;
 
@@ -22,7 +23,7 @@ public class CoordsHud {
                 player.getBlockPos().getX() + " " +
                 player.getBlockPos().getY() + " " +
                 player.getBlockPos().getZ() + "§6   " +
-                getDirectionAbbr(player.getYaw()) + "   " +
+                getDirectionAbbr(player.getYaw() % 360) + "   " +
                 getWorldTime(player.getWorld());
 
             client.inGameHud.setOverlayMessage(Text.of(hudDisplay), false);
@@ -36,24 +37,19 @@ public class CoordsHud {
         return String.format("%02d:%02d", hours, minutes);
     }
 
-
-
-    public static String get2PointDirectionAbbr(float direction) {
-        if (direction <= -157.5 || direction >= 157.5) return "N";
-        if (direction >= 112.5 && direction <= 157.5) return "NW";
-        if (direction >= 67.5 && direction <= 112.5) return "W";
-        if (direction >= 22.5 && direction <= 67.5) return "SW";
-        if (direction >= -22.5 && direction <= 22.5) return "S";
-        if (direction >= -67.5 && direction <= -22.5) return "SE";
-        if (direction >= -112.5 && direction <= -67.5) return "E";
-        if (direction >= -157.5 && direction <= -112.5) return "NE";
-
-        return "N/A";
+    public static String get2PointDirectionAbbr(int direction) {
+        return switch (direction) {
+            case 0 -> "S";
+            case 1 -> "W";
+            case 2 -> "N";
+            case 3 -> "E";
+            default -> "N/A";
+        };
     }
 
 
 
     public static String getDirectionAbbr(float direction) {
-        return get2PointDirectionAbbr(direction).substring(0, 1);
+        return get2PointDirectionAbbr(MathHelper.floor((double)((direction * 4F) / 360F) + 0.5D) & 3);
     }
 }

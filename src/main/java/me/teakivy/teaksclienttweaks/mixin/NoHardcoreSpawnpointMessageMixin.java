@@ -14,17 +14,19 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @Mixin(ServerPlayerEntity.class)
 public class NoHardcoreSpawnpointMessageMixin {
 
-    @ModifyArg(method = "setSpawnPoint", at = @At(value = "INVOKE", target = "Lnet/minecraft/server/network/ServerPlayerEntity;setSpawnPoint(Lnet/minecraft/util/registry/RegistryKey;Lnet/minecraft/util/math/BlockPos;FZZ)V"), index = 4)
-    public boolean setSpawnPoint(boolean sendMessage) {
-//        if (!Config.NoHardcoreSpawnpointMessage.isEnabled()) return;
+//    @ModifyArg(method = "setSpawnPoint")
 
-        if (!sendMessage) return sendMessage;
-        if (MinecraftClient.getInstance().player == null) return sendMessage;
-
-        if (MinecraftClient.getInstance().player.getWorld().getLevelProperties().isHardcore()) {
-            return false;
-        }
-
-        return sendMessage;
-    }
+//    @ModifyArg(method = "setSpawnPoint", at = @At(value = "INVOKE", target = "Lnet/minecraft/server/network/ServerPlayerEntity;setSpawnPoint(Lnet/minecraft/util/registry/RegistryKey;Lnet/minecraft/util/math/BlockPos;FZZ)V"), index = 4)
+//    public boolean setSpawnPoint(boolean sendMessage) {
+////        if (!Config.NoHardcoreSpawnpointMessage.isEnabled()) return;
+//
+//        if (!sendMessage) return sendMessage;
+//        if (MinecraftClient.getInstance().player == null) return sendMessage;
+//
+//        if (MinecraftClient.getInstance().player.getWorld().getLevelProperties().isHardcore()) {
+//            return false;
+//        }
+//
+//        return sendMessage;
+//    }
 }

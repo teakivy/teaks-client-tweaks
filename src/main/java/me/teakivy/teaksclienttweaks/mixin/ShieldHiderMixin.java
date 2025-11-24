@@ -36,6 +36,6 @@ public class ShieldHiderMixin {
         if (hand.equals(Hand.MAIN_HAND) && !Config.ShieldHider.isHiddenInMainHand()) return;
         if (hand.equals(Hand.OFF_HAND) && !Config.ShieldHider.isHiddenInOffHand()) return;
 
-        ci.cancel(); 
+        ci.cancel();
     }
 }
